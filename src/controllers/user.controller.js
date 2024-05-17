@@ -85,11 +85,11 @@ export const updateUser = async (req, res, next) => {
  */
 export const deleteUser = async (req, res, next) => {
   try {
-    await UserService.deleteUser(req.params.id);
+    const data = await UserService.deleteUser(req.params.id);
     res.status(HttpStatus.OK).json({
-      code: HttpStatus.OK,
-      data: [],
-      message: 'User deleted successfully'
+      code: data.code,
+      data: data.data,
+      message: data.message
     });
   } catch (error) {
     next(error);

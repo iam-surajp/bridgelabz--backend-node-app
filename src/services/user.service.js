@@ -66,8 +66,22 @@ export const updateUser = async (id, body) => {
 
 //delete single user
 export const deleteUser = async (id) => {
-  await User.destroy({ where: { id: id } });
-  return '';
+  
+  const ifUserExist = await User.findOne({where: {id:id}});
+  if (ifUserExist){
+    
+    await User.destroy({ where: { id: id } });
+    return{
+      code:200,
+      message:'User deleted successfully.',
+    }
+  }else{
+    return{
+      code:400,
+      data:`Cannot find user with id ${id}`,
+      message:'Invalid credential'
+    }
+  }
 };
 
 //get single user
