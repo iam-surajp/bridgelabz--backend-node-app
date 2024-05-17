@@ -86,6 +86,19 @@ export const deleteUser = async (id) => {
 
 //get single user
 export const getUser = async (id) => {
-  const data = await User.findByPk(id);
-  return data;
+  const ifUserExist = await User.findOne({where:{id:id}});
+  if (ifUserExist){
+    const data = await User.findByPk(id);
+    return {
+      code:200,
+      data:data,
+      message:"User fetched successfully",
+    }
+  }else{
+    return{
+      code:400,
+      data: 'User does not exist',
+      message:'Invalid credential',
+  };
 };
+}

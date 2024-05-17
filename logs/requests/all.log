@@ -790,3 +790,11 @@ info: ::1 - - [17/May/2024:12:16:58 +0000] "DELETE /api/v1/users/4 HTTP/1.1" 200
 
 info: ::1 - - [17/May/2024:12:17:08 +0000] "GET /api/v1/users HTTP/1.1" 200 532 "-" "PostmanRuntime/7.39.0"
 
+info: ::1 - - [17/May/2024:12:31:26 +0000] "GET /api/v1/users/3 HTTP/1.1" 200 211 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:12:31:57 +0000] "GET /api/v1/users/6 HTTP/1.1" 200 211 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:12:32:03 +0000] "GET /api/v1/users/9 HTTP/1.1" 400 72 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:12:32:58 +0000] "PUT /api/v1/users/5 HTTP/1.1" 202 107 "-" "PostmanRuntime/7.39.0"
+
