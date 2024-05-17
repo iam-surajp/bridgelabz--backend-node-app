@@ -40,3 +40,23 @@ info: ::1 - - [17/May/2024:06:53:58 +0000] "DELETE /api/v1/users/2 HTTP/1.1" 200
 
 info: ::1 - - [17/May/2024:07:05:11 +0000] "DELETE /api/v1/users/1 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.39.0"
 
+info: ::1 - - [17/May/2024:08:42:12 +0000] "GET /api/v1/users HTTP/1.1" 200 374 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+
+info: ::1 - - [17/May/2024:09:31:49 +0000] "GET /api/v1/users HTTP/1.1" 200 374 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:09:32:00 +0000] "POST /api/v1/users HTTP/1.1" 201 210 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:09:32:08 +0000] "PUT /api/v1/users/3 HTTP/1.1" 202 129 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:09:32:15 +0000] "GET /api/v1/users/4 HTTP/1.1" 200 210 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:09:32:22 +0000] "DELETE /api/v1/users/1 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:09:47:05 +0000] "POST /api/v1/users HTTP/1.1" 400 92 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:09:47:15 +0000] "POST /api/v1/users HTTP/1.1" 201 211 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:09:55:52 +0000] "POST /api/v1/users HTTP/1.1" 400 93 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:09:57:22 +0000] "GET /api/v1/users HTTP/1.1" 200 681 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+

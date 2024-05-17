@@ -1,6 +1,7 @@
 import sequelize, { DataTypes } from '../config/database';
 const User = require('../models/user')(sequelize, DataTypes);
 
+
 //get all users
 export const getAllUsers = async () => {
   const data = await User.findAll();
@@ -9,8 +10,24 @@ export const getAllUsers = async () => {
 
 //create new user
 export const newUser = async (body) => {
-  const data = await User.create(body);
-  return data;
+  const email = body.email;
+  const checkForUser = await User.findOne({where: {email: email}});
+
+  if(checkForUser === null ){
+    const data = await User.create(body);
+    return {
+      code: 201,
+      data: data,
+      message: 'User created successfully'
+    }
+  }
+  else{
+    return {
+      code: 400,
+      data: `User with ${email} already exist`,
+      message: 'Invalid Credential'
+    };
+  }
 };
 
 //update single user
