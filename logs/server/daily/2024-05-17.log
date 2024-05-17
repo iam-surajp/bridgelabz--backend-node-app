@@ -26,3 +26,113 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-17T0
 info: Connected to the database. {"timestamp":"2024-05-17T09:54:26.821Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-17T09:55:14.878Z"}
 info: Connected to the database. {"timestamp":"2024-05-17T09:55:15.029Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-17T10:21:57.611Z"}
+info: Connected to the database. {"timestamp":"2024-05-17T10:21:57.774Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee3$ (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\src\services\/user.service.js:43:13)
+    at tryCatch (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/8 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-05-17T10:22:51.468Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-17T10:24:29.384Z"}
+info: Connected to the database. {"timestamp":"2024-05-17T10:24:29.535Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-17T10:29:51.731Z"}
+info: Connected to the database. {"timestamp":"2024-05-17T10:29:51.895Z"}
+error: 
+    status - 500 
+    message - Error: WHERE parameter "id" has invalid "undefined" value
+    at MSSQLQueryGenerator.whereItemQuery (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-generator.js:2445:13)
+    at C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-generator.js:2434:25
+    at Array.forEach (<anonymous>)
+    at MSSQLQueryGenerator.whereItemsQuery (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-generator.js:2432:35)
+    at MSSQLQueryGenerator.getWhereConditions (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-generator.js:2860:19)
+    at MSSQLQueryGenerator.selectQuery (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-generator.js:1460:28)
+    at MSSqlQueryInterface.select (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-interface.js:1002:27)
+    at Function.findAll (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\model.js:1824:47)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.findOne (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\model.js:1998:12) 
+    url - /api/v1/users/8 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-05-17T10:30:05.086Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-17T10:32:08.853Z"}
+info: Connected to the database. {"timestamp":"2024-05-17T10:32:09.006Z"}
+error: 
+    status - 500 
+    message - Error: WHERE parameter "id" has invalid "undefined" value
+    at MSSQLQueryGenerator.whereItemQuery (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-generator.js:2445:13)
+    at C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-generator.js:2434:25
+    at Array.forEach (<anonymous>)
+    at MSSQLQueryGenerator.whereItemsQuery (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-generator.js:2432:35)
+    at MSSQLQueryGenerator.getWhereConditions (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-generator.js:2860:19)
+    at MSSQLQueryGenerator.selectQuery (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-generator.js:1460:28)
+    at MSSqlQueryInterface.select (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-interface.js:1002:27)
+    at Function.findAll (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\model.js:1824:47)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.findOne (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\model.js:1998:12) 
+    url - /api/v1/users/8 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-05-17T10:32:21.429Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-17T10:34:28.894Z"}
+info: Connected to the database. {"timestamp":"2024-05-17T10:34:29.066Z"}
+error: 
+    status - 500 
+    message - Error: WHERE parameter "id" has invalid "undefined" value
+    at MSSQLQueryGenerator.whereItemQuery (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-generator.js:2445:13)
+    at C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-generator.js:2434:25
+    at Array.forEach (<anonymous>)
+    at MSSQLQueryGenerator.whereItemsQuery (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-generator.js:2432:35)
+    at MSSQLQueryGenerator.getWhereConditions (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-generator.js:2860:19)
+    at MSSQLQueryGenerator.selectQuery (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-generator.js:1460:28)
+    at MSSqlQueryInterface.select (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-interface.js:1002:27)
+    at Function.findAll (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\model.js:1824:47)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.findOne (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\model.js:1998:12) 
+    url - /api/v1/users/8 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-05-17T10:34:48.697Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-17T10:36:48.227Z"}
+info: Connected to the database. {"timestamp":"2024-05-17T10:36:48.387Z"}
+error: 
+    status - 500 
+    message - Error: WHERE parameter "id" has invalid "undefined" value
+    at MSSQLQueryGenerator.whereItemQuery (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-generator.js:2445:13)
+    at C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-generator.js:2434:25
+    at Array.forEach (<anonymous>)
+    at MSSQLQueryGenerator.whereItemsQuery (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-generator.js:2432:35)
+    at MSSQLQueryGenerator.getWhereConditions (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-generator.js:2860:19)
+    at MSSQLQueryGenerator.selectQuery (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-generator.js:1460:28)
+    at MSSqlQueryInterface.select (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-interface.js:1002:27)
+    at Function.findAll (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\model.js:1824:47)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.findOne (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\model.js:1998:12) 
+    url - /api/v1/users/8 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-05-17T10:37:01.011Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-17T10:40:23.359Z"}
+info: Connected to the database. {"timestamp":"2024-05-17T10:40:23.508Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-17T10:42:29.710Z"}
+info: Connected to the database. {"timestamp":"2024-05-17T10:42:29.879Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-17T10:44:46.673Z"}
+info: Connected to the database. {"timestamp":"2024-05-17T10:44:46.823Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-17T11:33:45.382Z"}
+info: Connected to the database. {"timestamp":"2024-05-17T11:33:45.562Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-17T11:40:32.453Z"}
+info: Connected to the database. {"timestamp":"2024-05-17T11:40:32.616Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-17T11:51:05.375Z"}
+info: Connected to the database. {"timestamp":"2024-05-17T11:51:05.548Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-17T11:57:59.440Z"}
+info: Connected to the database. {"timestamp":"2024-05-17T11:57:59.588Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-17T12:01:04.851Z"}
+info: Connected to the database. {"timestamp":"2024-05-17T12:01:04.987Z"}

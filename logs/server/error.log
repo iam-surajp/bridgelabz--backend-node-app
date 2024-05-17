@@ -691,3 +691,95 @@ SequelizeAccessDeniedError: Login failed for user 'AB'.
     at processTicksAndRejections (node:internal/process/task_queues:95:5)
     at ConnectionManager._connect (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
     at C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32 {"date":"Thu May 16 2024 15:50:25 GMT+0530 (India Standard Time)","error":{"name":"SequelizeAccessDeniedError","original":{"code":"ELOGIN"},"parent":{"code":"ELOGIN"}},"exception":true,"os":{"loadavg":[0,0,0],"uptime":12202.359},"process":{"argv":["node","C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\src\\index.js"],"cwd":"C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":20080,"external":3032433,"heapTotal":93622272,"heapUsed":43764872,"rss":130793472},"pid":10236,"uid":null,"version":"v20.12.2"},"stack":"SequelizeAccessDeniedError: Login failed for user 'AB'.\n    at ConnectionManager.connect (C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\sequelize\\src\\dialects\\mssql\\connection-manager.js:144:17)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at ConnectionManager._connect (C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\sequelize\\src\\dialects\\abstract\\connection-manager.js:332:24)\n    at C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\sequelize\\src\\dialects\\abstract\\connection-manager.js:250:32","timestamp":"2024-05-16T10:20:25.217Z","trace":[{"column":17,"file":"C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\sequelize\\src\\dialects\\mssql\\connection-manager.js","function":"ConnectionManager.connect","line":144,"method":"connect","native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false},{"column":24,"file":"C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\sequelize\\src\\dialects\\abstract\\connection-manager.js","function":"ConnectionManager._connect","line":332,"method":"_connect","native":false},{"column":32,"file":"C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\sequelize\\src\\dialects\\abstract\\connection-manager.js","function":null,"line":250,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee3$ (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\src\services\/user.service.js:43:13)
+    at tryCatch (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/8 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-05-17T10:22:51.468Z"}
+error: 
+    status - 500 
+    message - Error: WHERE parameter "id" has invalid "undefined" value
+    at MSSQLQueryGenerator.whereItemQuery (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-generator.js:2445:13)
+    at C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-generator.js:2434:25
+    at Array.forEach (<anonymous>)
+    at MSSQLQueryGenerator.whereItemsQuery (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-generator.js:2432:35)
+    at MSSQLQueryGenerator.getWhereConditions (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-generator.js:2860:19)
+    at MSSQLQueryGenerator.selectQuery (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-generator.js:1460:28)
+    at MSSqlQueryInterface.select (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-interface.js:1002:27)
+    at Function.findAll (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\model.js:1824:47)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.findOne (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\model.js:1998:12) 
+    url - /api/v1/users/8 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-05-17T10:30:05.086Z"}
+error: 
+    status - 500 
+    message - Error: WHERE parameter "id" has invalid "undefined" value
+    at MSSQLQueryGenerator.whereItemQuery (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-generator.js:2445:13)
+    at C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-generator.js:2434:25
+    at Array.forEach (<anonymous>)
+    at MSSQLQueryGenerator.whereItemsQuery (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-generator.js:2432:35)
+    at MSSQLQueryGenerator.getWhereConditions (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-generator.js:2860:19)
+    at MSSQLQueryGenerator.selectQuery (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-generator.js:1460:28)
+    at MSSqlQueryInterface.select (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-interface.js:1002:27)
+    at Function.findAll (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\model.js:1824:47)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.findOne (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\model.js:1998:12) 
+    url - /api/v1/users/8 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-05-17T10:32:21.429Z"}
+error: 
+    status - 500 
+    message - Error: WHERE parameter "id" has invalid "undefined" value
+    at MSSQLQueryGenerator.whereItemQuery (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-generator.js:2445:13)
+    at C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-generator.js:2434:25
+    at Array.forEach (<anonymous>)
+    at MSSQLQueryGenerator.whereItemsQuery (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-generator.js:2432:35)
+    at MSSQLQueryGenerator.getWhereConditions (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-generator.js:2860:19)
+    at MSSQLQueryGenerator.selectQuery (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-generator.js:1460:28)
+    at MSSqlQueryInterface.select (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-interface.js:1002:27)
+    at Function.findAll (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\model.js:1824:47)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.findOne (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\model.js:1998:12) 
+    url - /api/v1/users/8 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-05-17T10:34:48.697Z"}
+error: 
+    status - 500 
+    message - Error: WHERE parameter "id" has invalid "undefined" value
+    at MSSQLQueryGenerator.whereItemQuery (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-generator.js:2445:13)
+    at C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-generator.js:2434:25
+    at Array.forEach (<anonymous>)
+    at MSSQLQueryGenerator.whereItemsQuery (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-generator.js:2432:35)
+    at MSSQLQueryGenerator.getWhereConditions (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-generator.js:2860:19)
+    at MSSQLQueryGenerator.selectQuery (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-generator.js:1460:28)
+    at MSSqlQueryInterface.select (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-interface.js:1002:27)
+    at Function.findAll (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\model.js:1824:47)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.findOne (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\model.js:1998:12) 
+    url - /api/v1/users/8 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-05-17T10:37:01.011Z"}
+error: uncaughtException: Argument passed to findByPk is invalid: [object Object]
+Error: Argument passed to findByPk is invalid: [object Object]
+    at Function.findByPk (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\model.js:1950:13)
+    at _callee3$ (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\src\services\/user.service.js:47:22)
+    at tryCatch (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Fri May 17 2024 17:18:25 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":103882.562},"process":{"argv":["node","C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\src\\index.js"],"cwd":"C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":111454,"external":3128002,"heapTotal":53739520,"heapUsed":51744368,"rss":95797248},"pid":15712,"uid":null,"version":"v20.12.2"},"stack":"Error: Argument passed to findByPk is invalid: [object Object]\n    at Function.findByPk (C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\sequelize\\src\\model.js:1950:13)\n    at _callee3$ (C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\src\\services\\/user.service.js:47:22)\n    at tryCatch (C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.next (C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-05-17T11:48:25.423Z","trace":[{"column":13,"file":"C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\sequelize\\src\\model.js","function":"Function.findByPk","line":1950,"method":"findByPk","native":false},{"column":22,"file":"C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\src\\services\\/user.service.js","function":"_callee3$","line":47,"method":null,"native":false},{"column":16,"file":"C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":74,"method":"next","native":false},{"column":24,"file":"C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}

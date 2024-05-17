@@ -712,3 +712,73 @@ info: ::1 - - [17/May/2024:09:55:52 +0000] "POST /api/v1/users HTTP/1.1" 400 93 
 
 info: ::1 - - [17/May/2024:09:57:22 +0000] "GET /api/v1/users HTTP/1.1" 200 681 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 
+info: ::1 - - [17/May/2024:10:22:29 +0000] "GET /api/v1/users HTTP/1.1" 200 681 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:10:22:51 +0000] "PUT /api/v1/users/8 HTTP/1.1" 500 54 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:10:30:05 +0000] "PUT /api/v1/users/8 HTTP/1.1" 500 89 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:10:32:21 +0000] "PUT /api/v1/users/8 HTTP/1.1" 500 89 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:10:34:48 +0000] "PUT /api/v1/users/8 HTTP/1.1" 500 89 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:10:37:01 +0000] "PUT /api/v1/users/8 HTTP/1.1" 500 89 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:10:46:17 +0000] "PUT /api/v1/users/8 HTTP/1.1" 202 81 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:10:47:05 +0000] "PUT /api/v1/users/3 HTTP/1.1" 202 61 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:10:47:19 +0000] "GET /api/v1/users HTTP/1.1" 200 683 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+
+info: ::1 - - [17/May/2024:11:04:42 +0000] "PUT /api/v1/users/3 HTTP/1.1" 202 61 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:11:04:49 +0000] "GET /api/v1/users HTTP/1.1" 200 675 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+
+info: ::1 - - [17/May/2024:11:06:20 +0000] "PUT /api/v1/users/3 HTTP/1.1" 202 61 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:11:06:39 +0000] "GET /api/v1/users HTTP/1.1" 200 682 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+
+info: ::1 - - [17/May/2024:11:08:05 +0000] "PUT /api/v1/users/34 HTTP/1.1" 202 82 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:11:08:23 +0000] "PUT /api/v1/users/3 HTTP/1.1" 202 61 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:11:09:11 +0000] "PUT /api/v1/users/4 HTTP/1.1" 202 61 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:11:09:16 +0000] "GET /api/v1/users HTTP/1.1" 200 683 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+
+info: ::1 - - [17/May/2024:11:12:41 +0000] "PUT /api/v1/users/5 HTTP/1.1" 202 61 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:11:12:46 +0000] "GET /api/v1/users HTTP/1.1" 200 688 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+
+info: ::1 - - [17/May/2024:11:34:33 +0000] "PUT /api/v1/users/5 HTTP/1.1" 202 61 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:11:34:45 +0000] "GET /api/v1/users HTTP/1.1" 200 689 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+
+info: ::1 - - [17/May/2024:11:36:12 +0000] "PUT /api/v1/users/5 HTTP/1.1" 202 99 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:11:37:00 +0000] "PUT /api/v1/users/5 HTTP/1.1" 202 61 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:11:38:49 +0000] "PUT /api/v1/users/1 HTTP/1.1" 202 81 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:11:40:49 +0000] "GET /api/v1/users HTTP/1.1" 200 688 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+
+info: ::1 - - [17/May/2024:11:47:37 +0000] "GET /api/v1/users HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+
+info: ::1 - - [17/May/2024:11:48:25 +0000] "PUT /api/v1/users/5 HTTP/1.1" 202 60 "-" "PostmanRuntime/7.39.0"
+
+error: uncaughtException: Argument passed to findByPk is invalid: [object Object]
+Error: Argument passed to findByPk is invalid: [object Object]
+    at Function.findByPk (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\model.js:1950:13)
+    at _callee3$ (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\src\services\/user.service.js:47:22)
+    at tryCatch (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Fri May 17 2024 17:18:25 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":103882.578},"process":{"argv":["node","C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\src\\index.js"],"cwd":"C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":120378,"external":3132771,"heapTotal":53739520,"heapUsed":51812360,"rss":95916032},"pid":15712,"uid":null,"version":"v20.12.2"},"stack":"Error: Argument passed to findByPk is invalid: [object Object]\n    at Function.findByPk (C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\sequelize\\src\\model.js:1950:13)\n    at _callee3$ (C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\src\\services\\/user.service.js:47:22)\n    at tryCatch (C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.next (C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":13,"file":"C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\sequelize\\src\\model.js","function":"Function.findByPk","line":1950,"method":"findByPk","native":false},{"column":22,"file":"C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\src\\services\\/user.service.js","function":"_callee3$","line":47,"method":null,"native":false},{"column":16,"file":"C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":74,"method":"next","native":false},{"column":24,"file":"C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: ::1 - - [17/May/2024:11:51:18 +0000] "PUT /api/v1/users/5 HTTP/1.1" 202 60 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:11:58:17 +0000] "PUT /api/v1/users/5 HTTP/1.1" 202 217 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:11:58:24 +0000] "PUT /api/v1/users/5 HTTP/1.1" 202 107 "-" "PostmanRuntime/7.39.0"
+

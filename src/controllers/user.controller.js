@@ -68,9 +68,9 @@ export const updateUser = async (req, res, next) => {
   try {
     const data = await UserService.updateUser(req.params.id, req.body);
     res.status(HttpStatus.ACCEPTED).json({
-      code: HttpStatus.ACCEPTED,
-      data: data,
-      message: 'User updated successfully'
+      code: data.code,
+      data: data.data,
+      message: data.message
     });
   } catch (error) {
     next(error);

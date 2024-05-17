@@ -60,3 +60,63 @@ info: ::1 - - [17/May/2024:09:55:52 +0000] "POST /api/v1/users HTTP/1.1" 400 93 
 
 info: ::1 - - [17/May/2024:09:57:22 +0000] "GET /api/v1/users HTTP/1.1" 200 681 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 
+info: ::1 - - [17/May/2024:10:22:29 +0000] "GET /api/v1/users HTTP/1.1" 200 681 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:10:22:51 +0000] "PUT /api/v1/users/8 HTTP/1.1" 500 54 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:10:30:05 +0000] "PUT /api/v1/users/8 HTTP/1.1" 500 89 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:10:32:21 +0000] "PUT /api/v1/users/8 HTTP/1.1" 500 89 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:10:34:48 +0000] "PUT /api/v1/users/8 HTTP/1.1" 500 89 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:10:37:01 +0000] "PUT /api/v1/users/8 HTTP/1.1" 500 89 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:10:46:17 +0000] "PUT /api/v1/users/8 HTTP/1.1" 202 81 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:10:47:05 +0000] "PUT /api/v1/users/3 HTTP/1.1" 202 61 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:10:47:19 +0000] "GET /api/v1/users HTTP/1.1" 200 683 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+
+info: ::1 - - [17/May/2024:11:04:42 +0000] "PUT /api/v1/users/3 HTTP/1.1" 202 61 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:11:04:49 +0000] "GET /api/v1/users HTTP/1.1" 200 675 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+
+info: ::1 - - [17/May/2024:11:06:20 +0000] "PUT /api/v1/users/3 HTTP/1.1" 202 61 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:11:06:39 +0000] "GET /api/v1/users HTTP/1.1" 200 682 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+
+info: ::1 - - [17/May/2024:11:08:05 +0000] "PUT /api/v1/users/34 HTTP/1.1" 202 82 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:11:08:23 +0000] "PUT /api/v1/users/3 HTTP/1.1" 202 61 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:11:09:11 +0000] "PUT /api/v1/users/4 HTTP/1.1" 202 61 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:11:09:16 +0000] "GET /api/v1/users HTTP/1.1" 200 683 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+
+info: ::1 - - [17/May/2024:11:12:41 +0000] "PUT /api/v1/users/5 HTTP/1.1" 202 61 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:11:12:46 +0000] "GET /api/v1/users HTTP/1.1" 200 688 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+
+info: ::1 - - [17/May/2024:11:34:33 +0000] "PUT /api/v1/users/5 HTTP/1.1" 202 61 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:11:34:45 +0000] "GET /api/v1/users HTTP/1.1" 200 689 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+
+info: ::1 - - [17/May/2024:11:36:12 +0000] "PUT /api/v1/users/5 HTTP/1.1" 202 99 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:11:37:00 +0000] "PUT /api/v1/users/5 HTTP/1.1" 202 61 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:11:38:49 +0000] "PUT /api/v1/users/1 HTTP/1.1" 202 81 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:11:40:49 +0000] "GET /api/v1/users HTTP/1.1" 200 688 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+
+info: ::1 - - [17/May/2024:11:47:37 +0000] "GET /api/v1/users HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+
+info: ::1 - - [17/May/2024:11:48:25 +0000] "PUT /api/v1/users/5 HTTP/1.1" 202 60 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:11:51:18 +0000] "PUT /api/v1/users/5 HTTP/1.1" 202 60 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:11:58:17 +0000] "PUT /api/v1/users/5 HTTP/1.1" 202 217 "-" "PostmanRuntime/7.39.0"
+
+info: ::1 - - [17/May/2024:11:58:24 +0000] "PUT /api/v1/users/5 HTTP/1.1" 202 107 "-" "PostmanRuntime/7.39.0"
+
