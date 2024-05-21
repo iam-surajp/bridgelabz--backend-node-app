@@ -153,3 +153,43 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T0
 info: Connected to the database. {"timestamp":"2024-05-21T08:15:57.088Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T08:21:03.218Z"}
 info: Connected to the database. {"timestamp":"2024-05-21T08:21:03.399Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T08:53:08.549Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T08:53:08.722Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T08:53:29.826Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T08:53:29.966Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T08:54:34.559Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T08:54:34.734Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T08:56:29.382Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T08:56:29.554Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-21T08:57:00.370Z"}
+error: 
+    status - 500 
+    message - ValidationError: Password must have at least 8 characters, including one uppercase letter, one lowercase letter, one number, and one special character. 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-21T09:01:18.383Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T09:05:07.128Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T09:05:07.312Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T09:16:18.759Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T09:16:18.909Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T09:18:02.530Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T09:18:02.702Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T09:38:59.895Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T09:39:00.045Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T09:41:09.864Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T09:41:10.062Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T09:41:54.636Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T09:41:54.876Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T09:42:25.547Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T09:42:25.746Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T09:42:40.548Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T09:42:40.708Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T10:03:23.469Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T10:03:23.627Z"}

@@ -1,9 +1,8 @@
-import { where } from 'sequelize';
 import sequelize, { DataTypes } from '../config/database';
 const User = require('../models/user')(sequelize, DataTypes);
 const bcrypt = require('bcrypt');
-
-
+const jwt = require('jsonwebtoken');
+const secret_key = process.env.secret_key;
 
 
 //create new user
@@ -30,22 +29,23 @@ export const newUser = async (body) => {
 };
 
 export const userLogin = async (body) => {
-  const checkUser = await User.findOne({where:{email:body.email}});
-  if(checkUser == null){
+  const existingUser = await User.findOne({where:{email:body.email}});
+  if(existingUser == null){
     return {
       code: 400,
       data: `User with ${body.email} is not registered`,
       message: 'invalid credentials'
     }
   }else{
-    checkUser.dataValues.password
-    const checkPassword = await bcrypt.compare(body.password, checkUser.dataValues.password);
+    const checkPassword = await bcrypt.compare(body.password, existingUser.dataValues.password);
     if(checkPassword){
+      const token = jwt.sign({email:existingUser.email},secret_key);
       return {
         code: 202,
-        data: `User with ${body.email} is login successfully`,
-        message: `User with ${body.email} is login successfully`
+        data: token,
+        message: `User with ${body.email} is login successfully`,
       }
+
     }else{
       return {
         code: 400,

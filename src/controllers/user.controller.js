@@ -26,8 +26,10 @@ export const userLogin = async (req, res, next) => {
     const data = await UserService.userLogin(req.body);
     res.status(data.code).json({
       code: data.code,
+      id:data._id,
       data: data.data,
-      message: data.message
+      message: data.message,
+      token:data.token
     })
   }catch(error){
     next(error);
