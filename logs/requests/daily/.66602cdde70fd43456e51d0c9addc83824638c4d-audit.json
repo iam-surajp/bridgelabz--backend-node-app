@@ -21,9 +21,15 @@
             "hash": "a34997ebb63591698f64921428a2a392dc1214fbad2bbd08c988c38e36ff7aed"
         },
         {
+<<<<<<< HEAD
             "date": 1716268250580,
             "name": "logs\\requests\\daily\\2024-05-21.log",
             "hash": "b2d8766545cc27f60f22f01f9d419ede3a03ccb5014e440b6b168a4724ae7475"
+=======
+            "date": 1716269505063,
+            "name": "logs\\requests\\daily\\2024-05-21.log",
+            "hash": "7267b44a55df54fa9def7f2017ba4195020c1ad133cfd6ac2c33e787d8263b67"
+>>>>>>> main
         }
     ],
     "hashType": "sha256"

@@ -1,4 +1,83 @@
+<<<<<<< HEAD
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T05:10:51.418Z"}
 info: Connected to the database. {"timestamp":"2024-05-21T05:10:51.608Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T05:29:26.361Z"}
 info: Connected to the database. {"timestamp":"2024-05-21T05:29:26.561Z"}
+=======
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T05:31:45.824Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T05:31:46.088Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T05:35:00.350Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T05:35:00.615Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T05:37:04.628Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T05:37:04.836Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\mssql\query.js:128:25)
+    at C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at MSSqlQueryInterface.select (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\model.js:1824:21)
+    at Function.findOne (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\model.js:1998:12) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-21T05:37:52.819Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\mssql\query.js:128:25)
+    at C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at MSSqlQueryInterface.select (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\model.js:1824:21)
+    at Function.findOne (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\model.js:1998:12) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-21T05:38:19.459Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T05:38:33.411Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T05:38:33.589Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T05:38:52.441Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T05:38:52.653Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T05:41:05.257Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T05:41:05.440Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T05:41:22.231Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T05:41:22.409Z"}
+error: 
+    status - 500 
+    message - ValidationError: Password must have at least 8 characters, including one uppercase letter, one lowercase letter, one number, and one special character. 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-21T05:41:51.789Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T05:43:23.550Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T05:43:23.746Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T05:44:09.950Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T05:44:10.145Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T05:44:32.926Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T05:44:33.107Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T05:45:34.466Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T05:45:34.639Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T05:46:49.478Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T05:46:49.671Z"}
+error: 
+    status - 500 
+    message - SequelizeValidationError: string violation: password cannot be an array or an object
+    at InstanceValidator._validate (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\instance-validator.js:78:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at InstanceValidator._validateAndRunHooks (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\instance-validator.js:111:7)
+    at InstanceValidator.validate (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\instance-validator.js:93:12)
+    at user.save (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\model.js:4077:7)
+    at Function.create (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-21T05:47:11.082Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T05:47:51.449Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T05:47:51.674Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T05:49:04.769Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T05:49:04.969Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T05:49:45.886Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T05:49:46.184Z"}
+>>>>>>> main

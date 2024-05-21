@@ -894,5 +894,99 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-17T1
 info: Connected to the database. {"timestamp":"2024-05-17T12:15:51.326Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-17T12:31:01.259Z"}
 info: Connected to the database. {"timestamp":"2024-05-17T12:31:01.418Z"}
+<<<<<<< HEAD
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T05:10:51.418Z"}
 info: Connected to the database. {"timestamp":"2024-05-21T05:10:51.608Z"}
+=======
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T05:31:45.824Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T05:31:46.088Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T05:35:00.350Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T05:35:00.615Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T05:37:04.628Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T05:37:04.836Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\mssql\query.js:128:25)
+    at C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at MSSqlQueryInterface.select (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\model.js:1824:21)
+    at Function.findOne (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\model.js:1998:12) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-21T05:37:52.819Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\mssql\query.js:128:25)
+    at C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at MSSqlQueryInterface.select (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\model.js:1824:21)
+    at Function.findOne (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\model.js:1998:12) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-21T05:38:19.459Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T05:38:33.411Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T05:38:33.589Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T05:38:52.441Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T05:38:52.653Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T05:41:05.257Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T05:41:05.440Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T05:41:22.231Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T05:41:22.409Z"}
+error: 
+    status - 500 
+    message - ValidationError: Password must have at least 8 characters, including one uppercase letter, one lowercase letter, one number, and one special character. 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-21T05:41:51.789Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T05:43:23.550Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T05:43:23.746Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T05:44:09.950Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T05:44:10.145Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T05:44:32.926Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T05:44:33.107Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T05:45:34.466Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T05:45:34.639Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T05:46:49.478Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T05:46:49.671Z"}
+error: uncaughtException: data and salt arguments required
+Error: data and salt arguments required
+    at Object.hash (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\bcrypt\bcrypt.js:137:17)
+    at C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\bcrypt\bcrypt.js:133:25)
+    at _callee$ (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\src\services\/user.service.js:15:28)
+    at tryCatch (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Tue May 21 2024 11:17:11 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":427805.656},"process":{"argv":["node","C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\src\\index.js"],"cwd":"C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":110378,"external":3125347,"heapTotal":98828288,"heapUsed":57729632,"rss":138461184},"pid":15076,"uid":null,"version":"v20.12.2"},"stack":"Error: data and salt arguments required\n    at Object.hash (C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\bcrypt\\bcrypt.js:137:17)\n    at C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\bcrypt\\promises.js:29:12\n    at new Promise (<anonymous>)\n    at Object.module.exports.promise (C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\bcrypt\\promises.js:20:12)\n    at Object.hash (C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\bcrypt\\bcrypt.js:133:25)\n    at _callee$ (C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\src\\services\\/user.service.js:15:28)\n    at tryCatch (C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.next (C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-05-21T05:47:11.030Z","trace":[{"column":17,"file":"C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\bcrypt\\bcrypt.js","function":"Object.hash","line":137,"method":"hash","native":false},{"column":12,"file":"C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\bcrypt\\promises.js","function":null,"line":29,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\bcrypt\\promises.js","function":"Object.module.exports.promise","line":20,"method":"promise","native":false},{"column":25,"file":"C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\bcrypt\\bcrypt.js","function":"Object.hash","line":133,"method":"hash","native":false},{"column":28,"file":"C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\src\\services\\/user.service.js","function":"_callee$","line":15,"method":null,"native":false},{"column":16,"file":"C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":74,"method":"next","native":false},{"column":24,"file":"C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T05:47:51.449Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T05:47:51.674Z"}
+error: uncaughtException: data and salt arguments required
+Error: data and salt arguments required
+    at Object.hash (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\bcrypt\bcrypt.js:137:17)
+    at C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\bcrypt\bcrypt.js:133:25)
+    at _callee$ (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\src\services\/user.service.js:15:42)
+    at tryCatch (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Tue May 21 2024 11:17:54 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":427849.453},"process":{"argv":["node","C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\src\\index.js"],"cwd":"C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":125266,"external":3140235,"heapTotal":98828288,"heapUsed":59446144,"rss":138510336},"pid":13884,"uid":null,"version":"v20.12.2"},"stack":"Error: data and salt arguments required\n    at Object.hash (C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\bcrypt\\bcrypt.js:137:17)\n    at C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\bcrypt\\promises.js:29:12\n    at new Promise (<anonymous>)\n    at Object.module.exports.promise (C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\bcrypt\\promises.js:20:12)\n    at Object.hash (C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\bcrypt\\bcrypt.js:133:25)\n    at _callee$ (C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\src\\services\\/user.service.js:15:42)\n    at tryCatch (C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.next (C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-05-21T05:47:54.816Z","trace":[{"column":17,"file":"C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\bcrypt\\bcrypt.js","function":"Object.hash","line":137,"method":"hash","native":false},{"column":12,"file":"C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\bcrypt\\promises.js","function":null,"line":29,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\bcrypt\\promises.js","function":"Object.module.exports.promise","line":20,"method":"promise","native":false},{"column":25,"file":"C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\bcrypt\\bcrypt.js","function":"Object.hash","line":133,"method":"hash","native":false},{"column":42,"file":"C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\src\\services\\/user.service.js","function":"_callee$","line":15,"method":null,"native":false},{"column":16,"file":"C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":45,"method":null,"native":false},{"column":17,"file":"C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":133,"method":null,"native":false},{"column":21,"file":"C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":74,"method":"next","native":false},{"column":24,"file":"C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\AB\\OneDrive\\Desktop\\node_project\\fundoo_note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T05:49:04.769Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T05:49:04.969Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T05:49:45.886Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T05:49:46.184Z"}
+>>>>>>> main
