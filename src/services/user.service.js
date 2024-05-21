@@ -1,13 +1,10 @@
 import { where } from 'sequelize';
 import sequelize, { DataTypes } from '../config/database';
 const User = require('../models/user')(sequelize, DataTypes);
+const bcrypt = require('bcrypt');
 
 
-//get all users
-export const getAllUsers = async () => {
-  const data = await User.findAll();
-  return data;
-};
+
 
 //create new user
 export const newUser = async (body) => {
@@ -15,6 +12,7 @@ export const newUser = async (body) => {
   const checkForUser = await User.findOne({where: {email: email}});
 
   if(checkForUser === null){
+    body.password = await bcrypt.hash(body.password, 10);
     const data = await User.create(body);
     return {
       code: 201,
@@ -31,74 +29,3 @@ export const newUser = async (body) => {
   }
 };
 
-//update single user
-export const updateUser = async (id, body) => {
-  const checkForId = await User.findOne({ where: { id: id } });
-  // console.log('checkforid is :', checkForId);
-  if (checkForId !== null) {
-    const email = body.email;
-    const existing_email = await User.findOne({ where: { email: email } });
-    if (!existing_email){ 
-        await User.update(body, {
-          where: { id: id }
-        });
-        return {
-          code: 201,
-          data: await User.findOne({where:{id:id}}),
-          message: 'User updated successfully'
-        };
-    } else {
-          return{
-            code:400,
-            data: `User with email ${email} already exist.`,
-            message: 'User update error'
-            }
-    }
-  } else {
-    return {
-      code: 400,
-      data: `User not found for given Id ${id}`,
-      message: 'User Update error'
-    };
-  }
-};
-
-
-//delete single user
-export const deleteUser = async (id) => {
-  
-  const ifUserExist = await User.findOne({where: {id:id}});
-  if (ifUserExist){
-    
-    await User.destroy({ where: { id: id } });
-    return{
-      code:200,
-      message:'User deleted successfully.',
-    }
-  }else{
-    return{
-      code:400,
-      data:`Cannot find user with id ${id}`,
-      message:'Invalid credential'
-    }
-  }
-};
-
-//get single user
-export const getUser = async (id) => {
-  const ifUserExist = await User.findOne({where:{id:id}});
-  if (ifUserExist){
-    const data = await User.findByPk(id);
-    return {
-      code:200,
-      data:data,
-      message:"User fetched successfully",
-    }
-  }else{
-    return{
-      code:400,
-      data: 'User does not exist',
-      message:'Invalid credential',
-  };
-};
-}
