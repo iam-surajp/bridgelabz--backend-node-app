@@ -81,3 +81,71 @@ info: Connected to the database. {"timestamp":"2024-05-21T05:49:04.969Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T05:49:45.886Z"}
 info: Connected to the database. {"timestamp":"2024-05-21T05:49:46.184Z"}
 >>>>>>> main
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T05:57:50.787Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T05:57:50.988Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T05:59:52.256Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T06:02:10.257Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T06:02:10.443Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T06:05:29.127Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T06:05:29.287Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'code')
+    at _callee2$ (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\src\controllers\/user.controller.js:27:21)
+    at tryCatch (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-21T06:05:45.103Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T06:06:43.736Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T06:06:43.910Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'code')
+    at _callee2$ (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\src\controllers\/user.controller.js:27:21)
+    at tryCatch (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-21T06:06:46.926Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T06:08:13.693Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T06:08:13.900Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'code')
+    at _callee2$ (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\src\controllers\/user.controller.js:27:21)
+    at tryCatch (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-21T06:08:16.064Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-21T06:08:30.035Z"}
+info: Connected to the database. {"timestamp":"2024-05-21T06:08:30.208Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'code')
+    at _callee2$ (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\src\controllers\/user.controller.js:27:21)
+    at tryCatch (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-21T06:08:33.034Z"}

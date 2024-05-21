@@ -29,3 +29,30 @@ export const newUser = async (body) => {
   }
 };
 
+export const userLogin = async (body) => {
+  const checkUser = await User.findOne({where:{email:body.email}});
+  if(checkUser == null){
+    return {
+      code: 400,
+      data: `User with ${body.email} is not registered`,
+      message: 'invalid credentials'
+    }
+  }else{
+    checkUser.dataValues.password
+    const checkPassword = await bcrypt.compare(body.password, checkUser.dataValues.password);
+    if(checkPassword){
+      return {
+        code: 202,
+        data: `User with ${body.email} is login successfully`,
+        message: `User with ${body.email} is login successfully`
+      }
+    }else{
+      return {
+        code: 400,
+      data: `Please Enter valid password`,
+      message: 'invalid credentials'
+      }
+    }
+  }
+}
+
