@@ -1,5 +1,5 @@
 import HttpStatus from 'http-status-codes';
-import * as UserService from '../services/user.service';
+import * as adminService from '../services/admin.service';
 
 
 /**
@@ -8,9 +8,9 @@ import * as UserService from '../services/user.service';
  * @param {object} res - response object
  * @param {Function} next
  */
-export const newUser = async (req, res, next) => {
+export const createAdmin = async (req, res, next) => {
   try {
-    const data = await UserService.newUser(req.body);
+    const data = await adminService.createAdmin(req.body);
     res.status(data.code).json({
       code: data.code,
       data: data.data,
@@ -21,9 +21,9 @@ export const newUser = async (req, res, next) => {
   }
 };
 
-export const userLogin = async (req, res, next) => {
+export const adminLogin = async (req, res, next) => {
   try{
-    const data = await UserService.userLogin(req.body);
+    const data = await adminService.adminLogin(req.body);
     res.status(data.code).json({
       code: data.code,
       id:data._id,

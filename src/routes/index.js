@@ -1,7 +1,8 @@
 import express from 'express';
 const router = express.Router();
 
-import userRoute from './user.route';
+import adminRoute from './admin.route';
+import employeeRoute from './employee.route';
 /**
  * Function contains Application routes
  *
@@ -11,8 +12,8 @@ const routes = () => {
   router.get('/', (req, res) => {
     res.json('Welcome');
   });
-  router.use('/users', userRoute);
-
+  router.use('/admin', adminRoute);
+  // router.use('/employees',employeeRoute);
   return router;
 };
 

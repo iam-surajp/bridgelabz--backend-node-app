@@ -1,49 +1,49 @@
 import sequelize, { DataTypes } from '../config/database';
-const User = require('../models/user')(sequelize, DataTypes);
+const admin = require('../models/admin')(sequelize, DataTypes);
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const secret_key = process.env.secret_key;
 
 
 //create new user
-export const newUser = async (body) => {
+export const createAdmin = async (body) => {
   const email = body.email;
-  const checkForUser = await User.findOne({where: {email: email}});
+  const checkForUser = await admin.findOne({where: {email: email}});
 
   if(checkForUser === null){
     body.password = await bcrypt.hash(body.password, 10);
-    const data = await User.create(body);
+    const data = await admin.create(body);
     return {
       code: 201,
       data: data,
-      message: 'User created successfully'
+      message: 'Admin registered successfully'
     };
   }
   else {
     return {
       code: 400,
-      data: `User with ${email} already exist`,
+      data: `Admin with ${email} already exist`,
       message: 'Invalid Credential'
     };
   }
 };
 
-export const userLogin = async (body) => {
-  const existingUser = await User.findOne({where:{email:body.email}});
-  if(existingUser == null){
+export const adminLogin = async (body) => {
+  const existingAdmin = await admin.findOne({where:{email:body.email}});
+  if(existingAdmin == null){
     return {
       code: 400,
-      data: `User with ${body.email} is not registered`,
+      data: `User with ${body.email} is not registered as admin`,
       message: 'invalid credentials'
     }
   }else{
-    const checkPassword = await bcrypt.compare(body.password, existingUser.dataValues.password);
+    const checkPassword = await bcrypt.compare(body.password, existingAdmin.dataValues.password);
     if(checkPassword){
-      const token = jwt.sign({email:existingUser.email},secret_key);
+      const token = jwt.sign({email:existingAdmin.email},secret_key);
       return {
         code: 202,
         data: token,
-        message: `User with ${body.email} is login successfully`,
+        message: `Admin with ${body.email} is login successfully`,
       }
 
     }else{
