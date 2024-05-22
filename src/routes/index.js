@@ -13,7 +13,7 @@ const routes = () => {
     res.json('Welcome');
   });
   router.use('/admin', adminRoute);
-  // router.use('/employees',employeeRoute);
+  router.use('/employee',employeeRoute);
   return router;
 };
 

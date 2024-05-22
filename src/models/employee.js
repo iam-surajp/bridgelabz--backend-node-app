@@ -1,5 +1,5 @@
 'use strict';
-const { Model, DataTypes } = require('sequelize');
+const { Model, DataTypes,Sequelize } = require('sequelize');
 const { default: sequelize } = require('../config/database');
 
 module.exports  = (sequelize,DataTypes)=>{
@@ -13,6 +13,10 @@ module.exports  = (sequelize,DataTypes)=>{
         gender:DataTypes.STRING,
         department:DataTypes.STRING,
         salary:DataTypes.STRING,
+        start_date:{
+            type:DataTypes.DATE,
+            defaultValue:Sequelize.NOW
+        }
         
     },
     {
