@@ -23,11 +23,11 @@ export const createEmployee = async (req, res, next) => {
 
 export const getAllEmployees = async (req,res,next) => {
     try {
-        const data = await employeeService.getAllEmployees();
-        res.status(data.code).json({
-            code: data.code,
-            data: data.data,
-            message: data.message
+        const result = await employeeService.getAllEmployees();
+        res.status(result.code).json({
+            code: result.code,
+            data: result.data,
+            message: result.message
           });
         
     } catch (error) {
@@ -37,14 +37,26 @@ export const getAllEmployees = async (req,res,next) => {
 
 export const updateEmployee = async (req,res,next) =>{
   try {
-    const data = await employeeService.updateEmployee();
+    const data = await employeeService.updateEmployee(req.params,req.body);
     res.status(data.code).json({
       code:data.code,
       data:data.data,
       message:data.message
     })
   } catch (error) {
-    next(err);
+    next(error);
   }
 }
 
+export const deleteEmployee = async (req,res,next) =>{
+  try {
+    const data = await employeeService.deleteEmployee(req.params);
+    res.status(data.code).json({
+      code:data.code,
+      data:data.data,
+      message:data.message
+    })
+  } catch (error) {
+    next(error)
+  }
+}

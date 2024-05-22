@@ -1,15 +1,16 @@
 import express from 'express';
 import * as employeeController from '../controllers/employee.controller';
+import { adminAuth } from '../middlewares/auth.middleware';
 const router  = express.Router();
 
-router.post('/',employeeController.createEmployee);
+router.post('/',adminAuth,employeeController.createEmployee);
 
 router.get('/',employeeController.getAllEmployees);
 
 // router.get('/:id',getAEmployee);
 
-router.put('/:id',employeeController.updateEmployee);
+router.put('/:id',adminAuth,employeeController.updateEmployee);
 
-// router.delete('/:id',deleteEmployee);
+router.delete('/:id',adminAuth,employeeController.deleteEmployee);
 
 export default router;

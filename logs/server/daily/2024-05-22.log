@@ -319,3 +319,299 @@ error:
     method - GET 
     IP - ::1
    {"timestamp":"2024-05-22T07:19:28.483Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-22T07:20:24.525Z"}
+info: Connected to the database. {"timestamp":"2024-05-22T07:20:24.699Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-22T07:53:17.358Z"}
+info: Connected to the database. {"timestamp":"2024-05-22T07:53:17.523Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-22T07:57:27.352Z"}
+info: Connected to the database. {"timestamp":"2024-05-22T07:57:27.506Z"}
+error: 
+    status - 500 
+    message - Error: WHERE parameter "id" has invalid "undefined" value
+    at MSSQLQueryGenerator.whereItemQuery (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-generator.js:2445:13)
+    at C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-generator.js:2434:25
+    at Array.forEach (<anonymous>)
+    at MSSQLQueryGenerator.whereItemsQuery (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-generator.js:2432:35)
+    at MSSQLQueryGenerator.getWhereConditions (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-generator.js:2860:19)
+    at MSSQLQueryGenerator.selectQuery (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-generator.js:1460:28)
+    at MSSqlQueryInterface.select (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\dialects\abstract\query-interface.js:1002:27)
+    at Function.findAll (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\model.js:1824:47)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.findOne (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\sequelize\src\model.js:1998:12) 
+    url - /api/v1/employee/2 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-05-22T07:57:35.240Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-22T07:59:14.306Z"}
+info: Connected to the database. {"timestamp":"2024-05-22T07:59:14.458Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee3$ (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\src\services\/employee.service.js:26:71)
+    at tryCatch (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.updateEmployee (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\src\services\/employee.service.js:25:28)
+    at _callee3$ (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\src\controllers\/employee.controller.js:40:40)
+    at tryCatch (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at updateEmployee (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\src\controllers\/employee.controller.js:38:28)
+    at Layer.handle [as handle_request] (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\body-parser\lib\read.js:137:5 
+    url - /api/v1/employee/2 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-05-22T07:59:27.473Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-22T08:01:09.730Z"}
+info: Connected to the database. {"timestamp":"2024-05-22T08:01:09.899Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-22T08:02:01.635Z"}
+info: Connected to the database. {"timestamp":"2024-05-22T08:02:01.794Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-22T08:09:41.668Z"}
+info: Connected to the database. {"timestamp":"2024-05-22T08:09:41.834Z"}
+info: Connected to the database. {"timestamp":"2024-05-22T08:09:56.816Z"}
+info: Connected to the database. {"timestamp":"2024-05-22T08:12:08.513Z"}
+info: Connected to the database. {"timestamp":"2024-05-22T08:12:32.734Z"}
+info: Connected to the database. {"timestamp":"2024-05-22T08:12:42.171Z"}
+info: Connected to the database. {"timestamp":"2024-05-22T08:12:55.931Z"}
+info: Connected to the database. {"timestamp":"2024-05-22T08:13:14.318Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-22T08:16:17.120Z"}
+info: Connected to the database. {"timestamp":"2024-05-22T08:16:17.269Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: undefined
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\express\lib\response.js:233:10)
+    at ServerResponse.json (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\express\lib\response.js:279:15)
+    at _callee2$ (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\src\controllers\/employee.controller.js:27:31)
+    at tryCatch (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/employee 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-05-22T08:16:27.556Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-22T08:17:04.682Z"}
+info: Connected to the database. {"timestamp":"2024-05-22T08:17:04.861Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: undefined
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\express\lib\response.js:233:10)
+    at ServerResponse.json (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\express\lib\response.js:279:15)
+    at _callee2$ (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\src\controllers\/employee.controller.js:27:31)
+    at tryCatch (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/employee 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-05-22T08:18:45.789Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-22T08:19:18.777Z"}
+info: Connected to the database. {"timestamp":"2024-05-22T08:19:18.937Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: undefined
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\express\lib\response.js:233:10)
+    at ServerResponse.json (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\express\lib\response.js:279:15)
+    at _callee2$ (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\src\controllers\/employee.controller.js:27:31)
+    at tryCatch (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/employee 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-05-22T08:19:20.345Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-22T08:19:38.617Z"}
+info: Connected to the database. {"timestamp":"2024-05-22T08:19:38.788Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: undefined
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\express\lib\response.js:233:10)
+    at ServerResponse.json (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\express\lib\response.js:279:15)
+    at _callee2$ (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\src\controllers\/employee.controller.js:27:31)
+    at tryCatch (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/employee 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-05-22T08:19:43.942Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-22T08:21:56.197Z"}
+info: Connected to the database. {"timestamp":"2024-05-22T08:21:56.353Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-22T08:24:19.074Z"}
+info: Connected to the database. {"timestamp":"2024-05-22T08:24:19.239Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: undefined
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\express\lib\response.js:233:10)
+    at ServerResponse.json (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\express\lib\response.js:279:15)
+    at _callee2$ (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\src\controllers\/employee.controller.js:27:31)
+    at tryCatch (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/employee 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-05-22T08:24:21.422Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: undefined
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\express\lib\response.js:233:10)
+    at ServerResponse.json (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\express\lib\response.js:279:15)
+    at _callee2$ (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\src\controllers\/employee.controller.js:27:31)
+    at tryCatch (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/employee/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-05-22T08:24:29.792Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-22T08:24:58.855Z"}
+info: Connected to the database. {"timestamp":"2024-05-22T08:24:59.007Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-22T08:25:33.804Z"}
+info: Connected to the database. {"timestamp":"2024-05-22T08:25:33.963Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-22T08:26:26.644Z"}
+info: Connected to the database. {"timestamp":"2024-05-22T08:26:26.801Z"}
+error: 
+    status - 500 
+    message - ReferenceError: id is not defined
+    at _callee4$ (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\src\services\/employee.service.js:55:38)
+    at tryCatch (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\AB\OneDrive\Desktop\node_project\fundoo_note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/employee/3 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-05-22T08:31:11.201Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-22T08:35:16.213Z"}
+info: Connected to the database. {"timestamp":"2024-05-22T08:35:16.434Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-22T08:35:35.790Z"}
+info: Connected to the database. {"timestamp":"2024-05-22T08:35:35.956Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-22T08:36:16.663Z"}
+info: Connected to the database. {"timestamp":"2024-05-22T08:36:16.817Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-22T08:38:11.309Z"}
+info: Connected to the database. {"timestamp":"2024-05-22T08:38:11.494Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-22T08:38:49.969Z"}
+info: Connected to the database. {"timestamp":"2024-05-22T08:38:50.249Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-22T08:39:08.598Z"}
+info: Connected to the database. {"timestamp":"2024-05-22T08:39:08.754Z"}
+error: 
+    status - 500 
+    message - ValidationError: "role" is required 
+    url - /api/v1/admin/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-22T08:39:29.649Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-22T08:47:46.305Z"}
+info: Connected to the database. {"timestamp":"2024-05-22T08:47:46.522Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-22T08:48:28.531Z"}
+info: Connected to the database. {"timestamp":"2024-05-22T08:48:28.681Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/employee 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-05-22T08:54:14.780Z"}
+error: 
+      status - 400
+      message - Admin Authorization is required 
+      url - /api/v1/employee 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-05-22T08:56:00.557Z"}
+error: 
+      status - 400
+      message - Admin Authorization is required 
+      url - /api/v1/employee 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-05-22T10:17:36.614Z"}

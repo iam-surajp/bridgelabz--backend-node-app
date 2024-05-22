@@ -39,7 +39,7 @@ export const adminLogin = async (body) => {
   }else{
     const checkPassword = await bcrypt.compare(body.password, existingAdmin.dataValues.password);
     if(checkPassword){
-      const token = jwt.sign({email:existingAdmin.email},secret_key);
+      const token = jwt.sign({email:existingAdmin.email,role:existingAdmin.role},secret_key);
       return {
         code: 202,
         data: token,

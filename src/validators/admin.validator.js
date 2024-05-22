@@ -4,6 +4,7 @@ export const newAdminValidator = (req, res, next) => {
   const schema = Joi.object({
     firstName: Joi.string().min(3).required(),
     lastName: Joi.string().min(3).required(),
+    role: Joi.string().min(3).required(),
     email: Joi.string().email().required(),
     password: Joi.string()
     .pattern(new RegExp('^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[!@#$%^&*])[A-Za-z\\d!@#$%^&*]{8,}$'))
