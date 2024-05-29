@@ -27,7 +27,8 @@ export const getAllEmployees = async (req,res,next) => {
         res.status(result.code).json({
             code: result.code,
             data: result.data,
-            message: result.message
+            message: result.message,
+            tokenData:result.tokenData
           });
         
     } catch (error) {

@@ -14,7 +14,7 @@ export const createAdmin = async (req, res, next) => {
     res.status(data.code).json({
       code: data.code,
       data: data.data,
-      message: data.message
+      message: data.message,
     });
   } catch (error) {
     next(error);
@@ -26,10 +26,10 @@ export const adminLogin = async (req, res, next) => {
     const data = await adminService.adminLogin(req.body);
     res.status(data.code).json({
       code: data.code,
-      id:data._id,
       data: data.data,
       message: data.message,
-      token:data.token
+      token:data.token,
+      tokenData:data.tokenData
     })
   }catch(error){
     next(error);

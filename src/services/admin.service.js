@@ -1,9 +1,9 @@
 import sequelize, { DataTypes } from '../config/database';
+import fileData from '../middlewares/auth.middleware';
 const admin = require('../models/admin')(sequelize, DataTypes);
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const secret_key = process.env.secret_key;
-
 
 //create new user
 export const createAdmin = async (body) => {
@@ -13,10 +13,11 @@ export const createAdmin = async (body) => {
   if(checkForUser === null){
     body.password = await bcrypt.hash(body.password, 10);
     const data = await admin.create(body);
+    
     return {
       code: 201,
       data: data,
-      message: 'Admin registered successfully'
+      message: 'Admin registered successfully',
     };
   }
   else {
@@ -45,7 +46,6 @@ export const adminLogin = async (body) => {
         data: token,
         message: `Admin with ${body.email} is login successfully`,
       }
-
     }else{
       return {
         code: 400,

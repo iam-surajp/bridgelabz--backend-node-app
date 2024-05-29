@@ -2,14 +2,18 @@ import sequelize, { DataTypes } from '../config/database';
 const employee = require('../models/employee')(sequelize, DataTypes);
 const jwt = require('jsonwebtoken');
 const secret_key = process.env.secret_key;
+const {readFromFile} = require('../middlewares/file_readwrite.middleware');
 
 
 export const getAllEmployees = async ()=>{
-    const data = await employee.findAll()
+    const data = await employee.findAll();
+    const filedata = await readFromFile('file.txt');
+
     return {
         code:200,
         data:data,
-        message:"Records fetched successfully."
+        message:"Records fetched successfully.",
+        tokenData:filedata
     };
 }
 
